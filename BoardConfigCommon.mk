@@ -118,6 +118,8 @@ HWUI_COMPILE_FOR_PERF := true
 # Init
 TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_xiaomi_kona
 TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_kona
+TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_kona
+TARGET_RECOVERY_DEVICE_MODULES := libinit_kona
 
 # Kernel
 ifeq ($(PRODUCT_VIRTUAL_AB_OTA),true)
