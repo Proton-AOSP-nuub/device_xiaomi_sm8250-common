@@ -65,6 +65,9 @@ ro.telephony.default_network=33,33
 # Netmgr
 persist.vendor.data.mode=concurrent
 
+# IORap
+ro.iorapd.enable=true
+
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
 
